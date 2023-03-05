@@ -9,6 +9,7 @@ def setup_browser_size():
     config.window_width = 1920
     config.window_height = 1080
 
+
 @pytest.fixture()
 def open_base_page(setup_browser_size):
     browser.open('https://google.com')
